@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Соц опитування "Соціальні мережі"</title>
+</head>
+<body style="background-color:powderblue;">
+    <header>
+        <h1 style="color:blue;">Соціальні мережі: за і проти</h1>
+    </header>
+    <hr>
+    <br>
+    <h2>Заповніть нижче вказані відповіді</h2>
+    <p>Витратьте, будь ласка, кілька хвилин свого часу на заповнення наступної анкети:</p>
+    <ol>
+        <li><b>Ваше ставлення до соціальних мереж 
+        (ВКонтакте, Google+, Facebook, Twitter, 
+        Connect, Одноклассники, Мой Мир, та інших)?</b>
+        </li>
+            <input type="radio" name="attitude" value="positive">Позитивне<br>
+            <input type="radio" name="attitude" value="negative">Негативне<br>
+            <input type="radio" name="attitude" value="neutral">Нейтральне<br>
+        <li>
+            <b>В яких соціальних мережах 
+            Ви зареєстровані або були зареєстровані 
+            (виберіть декілька відповідей)?</b>
+        </li>
+            <input type="checkbox" name="social networks" value="VK">Vkontakte<br>
+            <input type="checkbox" name="social networks" value="FB">Facebook<br>
+            <input type="checkbox" name="social networks" value="OD">Odnoklasniki<br>
+            <input type="checkbox" name="social networks" value="NO">Немаю екаунта<br>
+        <li>
+            <b>Для передавання даних в Інтернеті Ви найчастіше використовуєте?</b>
+        </li>
+            <input type="radio" name="data transfer" value="social networks">Соціальні мережі<br>
+            <input type="radio" name="data transfer" value="email">Електронну адресу<br>
+            <input type="radio" name="data transfer" value="the same options">Обидва варіанти<br>
+        
+        <li><b>Що для Вас є соціальні мережі (виберіть декілька відповідей)?</b>
+        </li>
+            <input type="checkbox" name="priority" value="communion">Спілкування<br>
+            <input type="checkbox" name="priority" value="source">Джерело цікавої інформації<br>
+            <input type="checkbox" name="priority" value="entertainment">Розваги<br>
+            <input type="checkbox" name="priority" value="expressions">Можливість самовираження<br>
+        
+        <li>
+            <b>Ваша стать:</b>
+        </li>
+            <input type="radio" name="gender" value="malу">Чоловіча<br>
+            <input type="radio" name="gender" value="female">Жіноча<br>
+        <li>
+            <b>Ваш вік</b>
+        </li>
+            <input type="radio" name="age" value="lass18">Менше 18 років<br>
+            <input type="radio" name="age" value="18-25yars">18-25 років<br>
+            <input type="radio" name="age" value="25yars">Більше 25років<br>
+    </ol>
+    <form action="http://formspree.io/honcharov.s@gmail.com" mathod="POST">
+        <filedest>
+            <legend>
+            Контактна інформація    
+            </legend>
+            <input type="text" size="25" placeholder="мм//дд//рр">
+             <p></p><select size="3" multiple name="residence">
+              <option disabled>Де Ви проживаєте</option>
+              <option value="EU">Європа</option>
+              <option selected value="USA">США</option>
+              <option value="AS">Азія</option>
+              <option value="AF">Африка</option>
+              </select></p><br>
+             <input type="email" placeholder="ivanov@gmail.com" name="raplyto">
+             <input type="submit" value="Send">
+              
+        </filedest>
+    </form>
+    
+    
+    
+    
+    
+</body>
+</html>
